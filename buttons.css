@@ -1,0 +1,18 @@
+.standard-button button {
+    background-color: var(--primary); /** ??? */
+
+    border: 2px solid var(--primary); /** ??? */
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 1px 3px 3px 0px black;
+    transition: 1s ease transform;
+    display: flex;
+    }
+    
+    
+    .standard-button a { 
+        color: var(--primary); /** tekst farge */
+        text-decoration: none;
+    }
+
+

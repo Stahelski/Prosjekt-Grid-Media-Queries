@@ -1,0 +1,49 @@
+header {
+    background-color: var(--primary);
+    height: 80px;
+    padding-inline: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    
+    
+    header figure {
+        height: 80px;
+    }
+    
+    
+    header figure img {
+        height: 100%;
+    }
+    
+    
+    header nav {
+        display: flex;
+        gap: 24px; 
+    }
+   
+    
+    header nav a{
+        background-color: var(--tertiory);  /** farge knapp*/
+        /* background-color: #8b7049; */
+        color: var(--white); /** farge tekst*/
+        text-decoration: none;
+        border: 2px solid var(--pink); /** farge boarder rundt*/
+        border-radius: 8px;
+        padding: 8px;
+        box-shadow: 1px 3px 3px black;
+        transition: 0.3s ease;
+    }
+
+
+    
+    header nav a:hover {
+    scale: 90%;
+    }
+    
+    
+    header nav a:active {
+    scale: 95%;
+    }

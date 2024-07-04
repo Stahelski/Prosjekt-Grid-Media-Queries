@@ -1,0 +1,80 @@
+@import "./header.css";
+@import "./public";
+@import "./hero.css";
+@import "./footer.css";
+@import "./gallery.css";
+@import "./about.css";
+@import "./spacer.css";
+@import "./buttons.css";
+
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+/* :root {
+    --primary: #fffffe;
+    --secondary: #f3f4f8;
+    --tertiory: #AB8E66;
+
+
+    --black: #161924; 
+    --white: #fffffe;
+    --gray: #7a8699; 
+} */
+
+:root {
+    --primary: #161924;
+    --secondary: #2b2474;
+    --tertiory: #9a1996;
+
+
+    --black: #050209; 
+    --white: #cbc4c0;
+    --gray: #f5a7bb; 
+    --pink: #d62ad1;
+}
+
+
+
+/* Generell stil for hele nettsiden */;
+body {
+    background-color: var(--primary);
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    padding-inline: 64px;
+    display: grid;
+    gap: 64px;
+}
+
+
+
+
+
+/* Hero-seksjon */
+/* .hero {
+    
+    background-color: var(--black);
+    margin: 0px;
+    padding: 50px;
+    text-align: center;
+} */
+
+/* Intro-seksjon */
+.about {
+    background-color: var(--white);
+    padding: 100px;
+}
+
+
+
+
+
